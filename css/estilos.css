@@ -1,0 +1,48 @@
+.licolor {
+    color: #231942;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #f714d1;
+}
+
+body {
+    background-color: #e9c0cf;
+}
+
+.backheader {
+    background-color: #ebb7c4;
+    box-shadow: 3rem;
+}
+
+.btncolor {
+    background-color: #d63263;
+    color: #d66ba6;
+}
+
+main {
+    background-color: #e9c0cf;
+}
+
+.fondo {
+    background-color: #eca2bd;
+}
+
+footer {
+    color: #231942;
+    background-color: #e0b1cb;
+}
+
+main p.card-text {
+    max-width: 270px 60px;
+}
+
+#vaciarcarrito {
+    padding-right: 11.5rem;
+    padding-bottom: 1rem;
+}
+
+#BotonCarro button {
+    --bs-btn-padding-x: -3.3rem;
+}
