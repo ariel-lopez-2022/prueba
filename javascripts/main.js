@@ -39,7 +39,7 @@ function mensaje() {
 
 function AgregarCarro(id) {
     let productos_carro = LSrecibirCarro();
-    fetch(`../main.json`)
+    fetch(`./main.json`)
     .then ((res)=> res.json())
     .then((data)=>{
        let producto = data.find(elemento => elemento.id == id);
